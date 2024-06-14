@@ -1,14 +1,15 @@
 // U35346496
 //  D3.js
 
+// Function to initialize the page
 function initializePage() {
-  // Data array with some sample data
-  const data = [10, 20, 30, 40, 50];
+    // Data array with some sample data
+    const dataset = [10, 20, 30, 40, 50];
 
-  // Select the body element and bind data to div elements
-  const divs = d3.select("body")
+    // Select the body element and bind data to div elements
+    const divs = d3.select("body")
         .selectAll("div")
-        .data(dataset)
+        .data(dataset) // Bind data to div elements
         .enter()
         .append("div")
         .attr("class", "datapoint") // Apply class for styling
