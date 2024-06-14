@@ -1,6 +1,5 @@
 // U35346496
 //  D3.js
-// script.js
 
 function initializePage() {
   // Data array with some sample data
