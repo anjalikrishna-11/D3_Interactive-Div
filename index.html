@@ -8,8 +8,27 @@
     <title>D3.js Interactive Div Elements</title>
     <!-- Include D3.js library -->
     <script src="https://d3js.org/d3.v7.min.js"></script>
+    <!-- CSS styles for data point div elements -->
+    <style>
+        .datapoint {
+            width: 50px;
+            height: 50px;
+            background-color: steelblue;
+            margin: 5px;
+            display: inline-block;
+            text-align: center;
+            line-height: 50px;
+            color: white;
+            font-family: Arial, sans-serif;
+            cursor: pointer;
+            }
+         
+        .datapoint:hover {
+            background-color: firebrick;
+        }
+    </style>
     </head>
-  <body>
+    <body>
     <!-- Data points will be dynamically added here -->
     
     <!-- External JavaScript file for D3.js implementation -->
